@@ -1,0 +1,5 @@
+ALTER TABLE Tran_MachineRawPunch
+ADD IsSync BIT NULL DEFAULT NULL;
+
+UPDATE Tran_MachineRawPunch
+SET IsSync = 1;

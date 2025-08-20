@@ -1,0 +1,8 @@
+Main-Class: com.attendance.sync.AttendanceSync
+Class-Path: lib/httpclient-4.5.14.jar lib/httpcore-4.4.16.jar lib/json-simple-1.1.1.jar lib/mssql-jdbc-12.4.2.jre8.jar lib/commons-logging-1.2.jar
+Implementation-Title: AttendanceSync
+Implementation-Version: 2.0
+Implementation-Vendor: AttendanceSync Team
+Built-By: Production Build
+Build-Date: 2025-08-20
+Build-Time: 12:51:10

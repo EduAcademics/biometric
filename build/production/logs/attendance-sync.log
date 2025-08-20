@@ -1,0 +1,244 @@
+Aug 20, 2025 12:51:33 PM com.attendance.sync.AttendanceSync loadConfiguration
+INFO: Configuration loaded successfully
+Aug 20, 2025 12:51:33 PM com.attendance.sync.AttendanceSync loadConfiguration
+INFO: School: DELHI PUBLIC SCHOOL, Indirapuram
+Aug 20, 2025 12:51:33 PM com.attendance.sync.AttendanceSync loadConfiguration
+INFO: Database: localhost:1433
+Aug 20, 2025 12:51:33 PM com.attendance.sync.AttendanceSync run
+INFO: AttendanceSync started for DELHI PUBLIC SCHOOL, Indirapuram
+Aug 20, 2025 12:51:33 PM com.attendance.sync.AttendanceSync run
+INFO: Starting sync cycle...
+Aug 20, 2025 12:51:34 PM com.attendance.sync.AttendanceSync getConnection
+INFO: Database connection successful!
+Aug 20, 2025 12:51:34 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: Total records processed: 0
+Aug 20, 2025 12:51:34 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: No unprocessed records found
+Aug 20, 2025 12:51:34 PM com.attendance.sync.AttendanceSync run
+INFO: Sleeping for 60 seconds...
+Aug 20, 2025 12:52:34 PM com.attendance.sync.AttendanceSync run
+INFO: Starting sync cycle...
+Aug 20, 2025 12:52:34 PM com.attendance.sync.AttendanceSync getConnection
+INFO: Database connection successful!
+Aug 20, 2025 12:52:34 PM com.attendance.sync.AttendanceSync processRecord
+INFO: Processing: Employee 00030172 at 21-08-2025 09:08:00 on Machine 106
+Aug 20, 2025 12:52:34 PM com.attendance.sync.AttendanceSync processRecord
+INFO: Sending attendance data to server for Machine: 106
+Aug 20, 2025 12:52:34 PM com.attendance.sync.AttendanceSync hitServer
+INFO: Sending request to: https://api.eduacademics.com/v1/guests/StaffBiomatricPunch?school_code=indp&attendancedata=%7B%22data%22%3A%5B%7B%22datetime%22%3A%2221-08-2025+09%3A08%3A00%22%2C%22school_code%22%3A%22indp%22%2C%22biomatric_code%22%3A%2200030172%22%7D%5D%7D
+Aug 20, 2025 12:52:34 PM com.attendance.sync.AttendanceSync hitServer
+INFO: Server response received: {"message":"Attendance Punch successfully updated","status":200,"data":{"status":"success","biomatric_code":"00030172"}}
+Aug 20, 2025 12:52:34 PM com.attendance.sync.AttendanceSync processRecord
+INFO: API response: {"message":"Attendance Punch successfully updated","status":200,"data":{"status":"success","biomatric_code":"00030172"}}
+Aug 20, 2025 12:52:34 PM com.attendance.sync.AttendanceSync analyzeResponse
+INFO: SUCCESS: Attendance recorded successfully
+Aug 20, 2025 12:52:34 PM com.attendance.sync.AttendanceSync updateDatabase
+INFO: Database updated successfully! Rows: 8
+Aug 20, 2025 12:52:34 PM com.attendance.sync.AttendanceSync processRecord
+INFO: ✅ Record successfully synced for Employee 00030172
+Aug 20, 2025 12:52:34 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: Total records processed: 1
+Aug 20, 2025 12:52:34 PM com.attendance.sync.AttendanceSync run
+INFO: Sleeping for 60 seconds...
+Aug 20, 2025 12:53:34 PM com.attendance.sync.AttendanceSync run
+INFO: Starting sync cycle...
+Aug 20, 2025 12:53:34 PM com.attendance.sync.AttendanceSync getConnection
+INFO: Database connection successful!
+Aug 20, 2025 12:53:34 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: Total records processed: 0
+Aug 20, 2025 12:53:34 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: No unprocessed records found
+Aug 20, 2025 12:53:34 PM com.attendance.sync.AttendanceSync run
+INFO: Sleeping for 60 seconds...
+Aug 20, 2025 12:54:34 PM com.attendance.sync.AttendanceSync run
+INFO: Starting sync cycle...
+Aug 20, 2025 12:54:34 PM com.attendance.sync.AttendanceSync getConnection
+INFO: Database connection successful!
+Aug 20, 2025 12:54:34 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: Total records processed: 0
+Aug 20, 2025 12:54:34 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: No unprocessed records found
+Aug 20, 2025 12:54:34 PM com.attendance.sync.AttendanceSync run
+INFO: Sleeping for 60 seconds...
+Aug 20, 2025 12:55:22 PM com.attendance.sync.AttendanceSync loadConfiguration
+INFO: Configuration loaded successfully
+Aug 20, 2025 12:55:22 PM com.attendance.sync.AttendanceSync loadConfiguration
+INFO: School: DELHI PUBLIC SCHOOL, Indirapuram
+Aug 20, 2025 12:55:22 PM com.attendance.sync.AttendanceSync loadConfiguration
+INFO: Database: localhost:1433
+Aug 20, 2025 12:55:22 PM com.attendance.sync.AttendanceSync run
+INFO: AttendanceSync started for DELHI PUBLIC SCHOOL, Indirapuram
+Aug 20, 2025 12:55:22 PM com.attendance.sync.AttendanceSync run
+INFO: Starting sync cycle...
+Aug 20, 2025 12:55:22 PM com.attendance.sync.AttendanceSync getConnection
+INFO: Database connection successful!
+Aug 20, 2025 12:55:22 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: Total records processed: 0
+Aug 20, 2025 12:55:22 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: No unprocessed records found
+Aug 20, 2025 12:55:22 PM com.attendance.sync.AttendanceSync run
+INFO: Sleeping for 60 seconds...
+Aug 20, 2025 12:56:22 PM com.attendance.sync.AttendanceSync run
+INFO: Starting sync cycle...
+Aug 20, 2025 12:56:22 PM com.attendance.sync.AttendanceSync getConnection
+INFO: Database connection successful!
+Aug 20, 2025 12:56:22 PM com.attendance.sync.AttendanceSync processRecord
+INFO: Processing: Employee 00030172 at 21-08-2025 09:08:00 on Machine 106
+Aug 20, 2025 12:56:22 PM com.attendance.sync.AttendanceSync processRecord
+INFO: Sending attendance data to server for Machine: 106
+Aug 20, 2025 12:56:22 PM com.attendance.sync.AttendanceSync hitServer
+INFO: Sending request to: https://api.eduacademics.com/v1/guests/StaffBiomatricPunch?school_code=indp&attendancedata=%7B%22data%22%3A%5B%7B%22datetime%22%3A%2221-08-2025+09%3A08%3A00%22%2C%22school_code%22%3A%22indp%22%2C%22biomatric_code%22%3A%2200030172%22%7D%5D%7D
+Aug 20, 2025 12:56:22 PM com.attendance.sync.AttendanceSync hitServer
+INFO: Server response received: {"message":"Attendance Punch successfully updated","status":200,"data":{"status":"success","biomatric_code":"00030172"}}
+Aug 20, 2025 12:56:22 PM com.attendance.sync.AttendanceSync processRecord
+INFO: API response: {"message":"Attendance Punch successfully updated","status":200,"data":{"status":"success","biomatric_code":"00030172"}}
+Aug 20, 2025 12:56:22 PM com.attendance.sync.AttendanceSync analyzeResponse
+INFO: SUCCESS: Attendance recorded successfully
+Aug 20, 2025 12:56:22 PM com.attendance.sync.AttendanceSync updateDatabase
+INFO: Database updated successfully! Rows: 10
+Aug 20, 2025 12:56:22 PM com.attendance.sync.AttendanceSync processRecord
+INFO: ✅ Record successfully synced for Employee 00030172
+Aug 20, 2025 12:56:22 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: Total records processed: 1
+Aug 20, 2025 12:56:22 PM com.attendance.sync.AttendanceSync run
+INFO: Sleeping for 60 seconds...
+Aug 20, 2025 12:56:49 PM com.attendance.sync.AttendanceSync loadConfiguration
+INFO: Configuration loaded successfully
+Aug 20, 2025 12:56:49 PM com.attendance.sync.AttendanceSync loadConfiguration
+INFO: School: DELHI PUBLIC SCHOOL, Indirapuram
+Aug 20, 2025 12:56:49 PM com.attendance.sync.AttendanceSync loadConfiguration
+INFO: Database: localhost:1433
+Aug 20, 2025 12:56:49 PM com.attendance.sync.AttendanceSync run
+INFO: AttendanceSync started for DELHI PUBLIC SCHOOL, Indirapuram
+Aug 20, 2025 12:56:49 PM com.attendance.sync.AttendanceSync run
+INFO: Starting sync cycle...
+Aug 20, 2025 12:56:49 PM com.attendance.sync.AttendanceSync getConnection
+INFO: Database connection successful!
+Aug 20, 2025 12:56:49 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: Total records processed: 0
+Aug 20, 2025 12:56:49 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: No unprocessed records found
+Aug 20, 2025 12:56:49 PM com.attendance.sync.AttendanceSync run
+INFO: Sleeping for 60 seconds...
+Aug 20, 2025 12:57:46 PM com.attendance.sync.AttendanceSync loadConfiguration
+INFO: Configuration loaded successfully
+Aug 20, 2025 12:57:46 PM com.attendance.sync.AttendanceSync loadConfiguration
+INFO: School: DEMO PUBLIC SCHOOL, Indirapuram
+Aug 20, 2025 12:57:46 PM com.attendance.sync.AttendanceSync loadConfiguration
+INFO: Database: localhost:1433
+Aug 20, 2025 12:57:46 PM com.attendance.sync.AttendanceSync run
+INFO: AttendanceSync started for DEMO PUBLIC SCHOOL, Indirapuram
+Aug 20, 2025 12:57:46 PM com.attendance.sync.AttendanceSync run
+INFO: Starting sync cycle...
+Aug 20, 2025 12:57:46 PM com.attendance.sync.AttendanceSync getConnection
+INFO: Database connection successful!
+Aug 20, 2025 12:57:46 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: Total records processed: 0
+Aug 20, 2025 12:57:46 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: No unprocessed records found
+Aug 20, 2025 12:57:46 PM com.attendance.sync.AttendanceSync run
+INFO: Sleeping for 60 seconds...
+Aug 20, 2025 12:58:46 PM com.attendance.sync.AttendanceSync run
+INFO: Starting sync cycle...
+Aug 20, 2025 12:58:46 PM com.attendance.sync.AttendanceSync getConnection
+INFO: Database connection successful!
+Aug 20, 2025 12:58:46 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: Total records processed: 0
+Aug 20, 2025 12:58:46 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: No unprocessed records found
+Aug 20, 2025 12:58:46 PM com.attendance.sync.AttendanceSync run
+INFO: Sleeping for 60 seconds...
+Aug 20, 2025 12:59:46 PM com.attendance.sync.AttendanceSync run
+INFO: Starting sync cycle...
+Aug 20, 2025 12:59:46 PM com.attendance.sync.AttendanceSync getConnection
+INFO: Database connection successful!
+Aug 20, 2025 12:59:46 PM com.attendance.sync.AttendanceSync processRecord
+INFO: Processing: Employee 00030172 at 21-08-2025 09:08:00 on Machine 106
+Aug 20, 2025 12:59:46 PM com.attendance.sync.AttendanceSync processRecord
+INFO: Sending attendance data to server for Machine: 106
+Aug 20, 2025 12:59:46 PM com.attendance.sync.AttendanceSync hitServer
+INFO: Sending request to: https://api.eduacademics.com/v1/guests/StaffBiomatricPunch?school_code=indp&attendancedata=%7B%22data%22%3A%5B%7B%22datetime%22%3A%2221-08-2025+09%3A08%3A00%22%2C%22school_code%22%3A%22indp%22%2C%22biomatric_code%22%3A%2200030172%22%7D%5D%7D
+Aug 20, 2025 12:59:46 PM com.attendance.sync.AttendanceSync hitServer
+INFO: Server response received: {"message":"Attendance Punch successfully updated","status":200,"data":{"status":"success","biomatric_code":"00030172"}}
+Aug 20, 2025 12:59:46 PM com.attendance.sync.AttendanceSync processRecord
+INFO: API response: {"message":"Attendance Punch successfully updated","status":200,"data":{"status":"success","biomatric_code":"00030172"}}
+Aug 20, 2025 12:59:46 PM com.attendance.sync.AttendanceSync analyzeResponse
+INFO: SUCCESS: Attendance recorded successfully
+Aug 20, 2025 12:59:46 PM com.attendance.sync.AttendanceSync updateDatabase
+INFO: Database updated successfully! Rows: 11
+Aug 20, 2025 12:59:46 PM com.attendance.sync.AttendanceSync processRecord
+INFO: ✅ Record successfully synced for Employee 00030172
+Aug 20, 2025 12:59:46 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: Total records processed: 1
+Aug 20, 2025 12:59:46 PM com.attendance.sync.AttendanceSync run
+INFO: Sleeping for 60 seconds...
+Aug 20, 2025 1:00:46 PM com.attendance.sync.AttendanceSync run
+INFO: Starting sync cycle...
+Aug 20, 2025 1:00:47 PM com.attendance.sync.AttendanceSync getConnection
+INFO: Database connection successful!
+Aug 20, 2025 1:00:47 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: Total records processed: 0
+Aug 20, 2025 1:00:47 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: No unprocessed records found
+Aug 20, 2025 1:00:47 PM com.attendance.sync.AttendanceSync run
+INFO: Sleeping for 60 seconds...
+Aug 20, 2025 1:01:47 PM com.attendance.sync.AttendanceSync run
+INFO: Starting sync cycle...
+Aug 20, 2025 1:01:47 PM com.attendance.sync.AttendanceSync getConnection
+INFO: Database connection successful!
+Aug 20, 2025 1:01:47 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: Total records processed: 0
+Aug 20, 2025 1:01:47 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: No unprocessed records found
+Aug 20, 2025 1:01:47 PM com.attendance.sync.AttendanceSync run
+INFO: Sleeping for 60 seconds...
+Aug 20, 2025 1:02:47 PM com.attendance.sync.AttendanceSync run
+INFO: Starting sync cycle...
+Aug 20, 2025 1:02:47 PM com.attendance.sync.AttendanceSync getConnection
+INFO: Database connection successful!
+Aug 20, 2025 1:02:47 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: Total records processed: 0
+Aug 20, 2025 1:02:47 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: No unprocessed records found
+Aug 20, 2025 1:02:47 PM com.attendance.sync.AttendanceSync run
+INFO: Sleeping for 60 seconds...
+Aug 20, 2025 1:03:47 PM com.attendance.sync.AttendanceSync run
+INFO: Starting sync cycle...
+Aug 20, 2025 1:03:47 PM com.attendance.sync.AttendanceSync getConnection
+INFO: Database connection successful!
+Aug 20, 2025 1:03:47 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: Total records processed: 0
+Aug 20, 2025 1:03:47 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: No unprocessed records found
+Aug 20, 2025 1:03:47 PM com.attendance.sync.AttendanceSync run
+INFO: Sleeping for 60 seconds...
+Aug 20, 2025 1:04:47 PM com.attendance.sync.AttendanceSync run
+INFO: Starting sync cycle...
+Aug 20, 2025 1:04:47 PM com.attendance.sync.AttendanceSync getConnection
+INFO: Database connection successful!
+Aug 20, 2025 1:04:47 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: Total records processed: 0
+Aug 20, 2025 1:04:47 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: No unprocessed records found
+Aug 20, 2025 1:04:47 PM com.attendance.sync.AttendanceSync run
+INFO: Sleeping for 60 seconds...
+Aug 20, 2025 1:05:47 PM com.attendance.sync.AttendanceSync run
+INFO: Starting sync cycle...
+Aug 20, 2025 1:05:47 PM com.attendance.sync.AttendanceSync getConnection
+INFO: Database connection successful!
+Aug 20, 2025 1:05:47 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: Total records processed: 0
+Aug 20, 2025 1:05:47 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: No unprocessed records found
+Aug 20, 2025 1:05:47 PM com.attendance.sync.AttendanceSync run
+INFO: Sleeping for 60 seconds...
+Aug 20, 2025 1:06:47 PM com.attendance.sync.AttendanceSync run
+INFO: Starting sync cycle...
+Aug 20, 2025 1:06:47 PM com.attendance.sync.AttendanceSync getConnection
+INFO: Database connection successful!
+Aug 20, 2025 1:06:47 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: Total records processed: 0
+Aug 20, 2025 1:06:47 PM com.attendance.sync.AttendanceSync fetchRecord
+INFO: No unprocessed records found
+Aug 20, 2025 1:06:47 PM com.attendance.sync.AttendanceSync run
+INFO: Sleeping for 60 seconds...
